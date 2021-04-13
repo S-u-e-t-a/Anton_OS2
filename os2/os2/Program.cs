@@ -201,9 +201,9 @@ namespace os2
 
         static void Main(string[] args)
         {
-            var filesStart = new List<int> { 8, 16, 18, 29 };
-            var clusters = new List<int>() { -3, -3, -3, 4, -1, -3, -1, -3, 9, 10,
-                11, -1, -3, 27, -2, -3, 17, 3, 13, 20, 21, 22, -1, -3, -3, -2, -3, 6, -3, 30, 3, -3 };
+            var filesStart = new List<int>() { 2, 7, 12, 11 }; // A, B, C, D
+            var clusters = new List<int>() { -3, -3, 3, 4, 5, -1, -1, 16, -1, 8,
+                -2, 13, 13,20, -3, -2, 9, -3, -3, -3, 6, -3, -3, -3, 25, 26, -1, -3 };
             var chains = new List<List<int>>();
             var savedClusters = new List<int>();
             var badClusters = new List<int>();
